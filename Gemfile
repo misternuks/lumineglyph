@@ -69,4 +69,5 @@ group :test do
 end
 
 # Custom gem list
+gem 'devise'
 gem 'activeadmin'
