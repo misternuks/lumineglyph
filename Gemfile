@@ -71,3 +71,4 @@ end
 # Custom gem list
 gem 'devise'
 gem 'activeadmin'
+gem 'sassc-rails'
