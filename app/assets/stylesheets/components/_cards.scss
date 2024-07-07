@@ -1,0 +1,29 @@
+.lg-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 8px;
+  width: 100%;
+}
+
+
+.lg-card {
+  box-shadow: 4px 4px 8px rgba(0,0,0,1);
+  margin: 0px;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(60, 60, 90);
+  border: solid 2px rgb(90, 90, 120);
+  border-radius: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+@media (max-width: 800px) {
+  .lg-card-container {
+    grid-template-columns: 1fr;
+  }
+}

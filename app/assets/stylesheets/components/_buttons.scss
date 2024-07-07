@@ -1,0 +1,22 @@
+.lg-button {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 8px 32px;
+  background-color: rgb(180, 180, 160);
+  color: rgb(30, 30, 60);
+  margin: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 4px #112;
+}
+
+.lg-button:hover {
+  color:rgb(60, 60, 90);
+  background-color: rgb(240, 240, 180);
+  transition: 0.2s;
+}
